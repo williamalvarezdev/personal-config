@@ -65,7 +65,7 @@
 					{
 						"foreground": "#FF8000",
 						"style": "plain",
-						"template": "👨💬<#FF8000>~</>",
+						"template": "👨💬<#FF8000>~ </>",
 						"type": "text"
 					}
 				],

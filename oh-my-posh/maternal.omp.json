@@ -21,7 +21,7 @@
               "style": "folder"
             },
             "style": "plain",
-            "template": "🏡{{ .Path }} ",
+            "template": "🏡 {{ .Path }} ",
             "type": "path"
           },
           {
@@ -42,11 +42,17 @@
           },
           {
             "foreground": "#1a415d",
+						"style": "plain",
+						"template": "⌚時間",
+						"type": "text"
+					},
+          {
+            "foreground": "#1a415d",
             "properties": {
               "time_format": "15:04"
             },
             "style": "plain",
-            "template": "⌚時間 {{ .CurrentDate | date .Format }} ",
+            "template": " {{ .CurrentDate | date .Format }} ",
             "type": "time"
           }
         ],
@@ -57,15 +63,9 @@
 				"newline": true,
 				"segments": [
 					{
-						"foreground": "#fff",
-						"style": "plain",
-						"template": " ⚡ ",
-						"type": "root"
-					},
-					{
 						"foreground": "#FF8000",
 						"style": "plain",
-						"template": "👨‍💻💬... ",
+						"template": "👨‍💻💬<#FF8000>\uf119</>",
 						"type": "text"
 					}
 				],

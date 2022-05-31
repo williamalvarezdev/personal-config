@@ -60,7 +60,6 @@
       },
 			{
 				"alignment": "left",
-				"newline": true,
 				"segments": [
 					{
 						"foreground": "#FF8000",

@@ -5,9 +5,20 @@
         "alignment": "left",
         "segments": [
           {
-            "foreground": "#ffffff",
+            "foreground": "#0087D8",
             "style": "plain",
             "template": "😺💬<#FF8000>今は何がしたいニャー？...</>",
+            "type": "text"
+          }],
+          "type": "prompt"
+        },
+      {
+        "alignment": "right",
+        "segments": [
+          {
+            "foreground": "#0087D8",
+            "style": "plain",
+            "template": "<#C591E8>\u276f</><#69FF94>\u276f</>",
             "type": "text"
           },
           {
@@ -36,7 +47,7 @@
             "type": "exit"
           },
           {
-            "foreground": "#DCB977",
+            "foreground": "#1a415d",
             "properties": {
               "time_format": "15:04"
             },
@@ -58,7 +69,7 @@
 						"type": "root"
 					},
 					{
-						"foreground": "#f1184c",
+						"foreground": "#003544",
 						"style": "plain",
 						"template": "👨‍💻💬... ",
 						"type": "text"

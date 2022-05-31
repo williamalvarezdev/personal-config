@@ -7,7 +7,7 @@
           {
             "foreground": "#ffffff",
             "style": "plain",
-            "template": "<#C591E8>\u276f</><#69FF94>\u276f</>",
+            "template": "😺💬<#FF8000>今は何がしたいニャー？...</>",
             "type": "text"
           },
           {
@@ -16,7 +16,7 @@
               "style": "folder"
             },
             "style": "plain",
-            "template": " {{ .Path }} ",
+            "template": "🏡{{ .Path }} ",
             "type": "path"
           },
           {
@@ -36,12 +36,12 @@
             "type": "exit"
           },
           {
-            "foreground": "#66F68F",
+            "foreground": "#DCB977",
             "properties": {
               "time_format": "15:04"
             },
             "style": "plain",
-            "template": " {{ .CurrentDate | date .Format }} ",
+            "template": "⌚時間 {{ .CurrentDate | date .Format }} ",
             "type": "time"
           }
         ],
@@ -60,7 +60,7 @@
 					{
 						"foreground": "#f1184c",
 						"style": "plain",
-						"template": "😺💬... ",
+						"template": "👨‍💻💬... ",
 						"type": "text"
 					}
 				],

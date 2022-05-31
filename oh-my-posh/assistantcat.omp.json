@@ -32,15 +32,9 @@
               "fetch_status": false
             },
             "style": "plain",
-            "template":  "<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>",
+            "template":  "{{ if .Working.Changed }}<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>{{else}}<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)AA</>{{ end }}",
             "type": "git"
           },
-          {
-            "foreground": "#1a415d",
-						"style": "powerline",
-						"template": "{{ if .Working.Changed }} need to change {{else}}{{ end }}",
-						"type": "git"
-					},
           {
             "foreground": "#DCB977",
             "style": "plain",

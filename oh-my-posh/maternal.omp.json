@@ -43,7 +43,7 @@
           {
             "foreground": "#1a415d",
 						"style": "plain",
-						"template": "⌚時間",
+						"template": "⌚",
 						"type": "text"
 					},
           {
@@ -65,7 +65,7 @@
 					{
 						"foreground": "#FF8000",
 						"style": "plain",
-						"template": "👨‍💻💬<#FF8000>\uf119</>",
+						"template": "👨‍💻💬<#FF8000>~</>",
 						"type": "text"
 					}
 				],

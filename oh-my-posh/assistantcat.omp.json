@@ -1,5 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+   
     "blocks": [
       {
         "alignment": "left",
@@ -7,7 +8,7 @@
           {
             "foreground": "#0087D8",
             "style": "plain",
-            "template": "😺💬<#FF8000>今は何がしたいのかニャー？...</>",
+            "template": "😺💬<#FF8000> 今は何がしたいのかニャー？...</>",
             "type": "text"
           }],
           "type": "prompt"
@@ -31,9 +32,15 @@
               "fetch_status": false
             },
             "style": "plain",
-            "template": "<#5FAAE8>git:{{ .HEAD }}{{ if .Working.Changed }} \uF044 ⚠️</>",
+            "template": "<#5FAAE8>git:{{ .HEAD }}</>",
             "type": "git"
           },
+          {
+            "foreground": "#1a415d",
+						"style": "plain",
+						"template": "{{ if .Working.Changed }} Changed {{ end }}",
+						"type": "git"
+					},
           {
             "foreground": "#DCB977",
             "style": "plain",
@@ -64,7 +71,7 @@
 					{
 						"foreground": "#FF8000",
 						"style": "plain",
-						"template": "👨💬<#FF8000>~ </>",
+						"template": "👨💬<#FF8000> ~ </>",
 						"type": "text"
 					}
 				],

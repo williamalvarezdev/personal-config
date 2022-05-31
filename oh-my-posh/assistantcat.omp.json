@@ -25,23 +25,14 @@
             "type": "path"
           },
           {
-            "type": "git",
-            "style": "powerline",
-            "powerline_symbol": "\uE0B0",
-            "foreground": "#193549",
-            "background": "#ffeb3b",
-            "background_templates": [
-              "{{ if or (.Working.Changed) (.Staging.Changed) }}#FFEB3B{{ end }}",
-              "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FFCC80{{ end }}",
-              "{{ if gt .Ahead 0 }}#B388FF{{ end }}",
-              "{{ if gt .Behind 0 }}#B388FB{{ end }}"
-            ],
-            "template": "{{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uF044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uF046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uF692 {{ .StashCount }}{{ end }}",
+            "foreground": "#D0666F",
             "properties": {
-              "fetch_status": true,
-              "fetch_stash_count": true,
-              "fetch_upstream_icon": true
-            }
+              "branch_icon": "",
+              "fetch_status": false
+            },
+            "style": "plain",
+            "template": "<#5FAAE8>git:(</>{{ .HEAD }}{{ if .Working.Changed }} Changed!<#5FAAE8>)</>",
+            "type": "git"
           },
           {
             "foreground": "#DCB977",

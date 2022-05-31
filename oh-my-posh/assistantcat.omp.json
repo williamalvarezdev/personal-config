@@ -31,7 +31,7 @@
               "fetch_status": false
             },
             "style": "plain",
-            "template": "<#5FAAE8>git:(</>{{ .HEAD }}{{ if .Working.Changed }} Changed!<#5FAAE8>)</>",
+            "template": "<#5FAAE8>git:{{ .HEAD }}{{ if .Working.Changed }} \uF044 ⚠️</>",
             "type": "git"
           },
           {

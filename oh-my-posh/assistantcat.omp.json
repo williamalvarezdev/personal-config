@@ -32,13 +32,13 @@
               "fetch_status": false
             },
             "style": "plain",
-            "template": "<#5FAAE8>git:{{ .HEAD }}</>",
+            "template":  "<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>",
             "type": "git"
           },
           {
             "foreground": "#1a415d",
-						"style": "plain",
-						"template": "{{ if .Working.Changed }} Changed {{ end }}",
+						"style": "powerline",
+						"template": "{{ if .Working.Changed }} need to change {{else}}{{ end }}",
 						"type": "git"
 					},
           {

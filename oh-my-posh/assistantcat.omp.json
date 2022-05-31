@@ -32,7 +32,7 @@
               "fetch_status": false
             },
             "style": "plain",
-            "template":  "{{ if .Working.Changed }}<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>{{else}}<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)AA</>{{ end }}",
+            "template":  "<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>",
             "type": "git"
           },
           {

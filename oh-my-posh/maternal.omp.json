@@ -7,7 +7,7 @@
           {
             "foreground": "#0087D8",
             "style": "plain",
-            "template": "😺💬<#FF8000>今は何がしたいニャー？...</>",
+            "template": "😺💬<#FF8000>今は何がしたいのかニャー？...</>",
             "type": "text"
           }],
           "type": "prompt"
@@ -63,7 +63,7 @@
 						"type": "root"
 					},
 					{
-						"foreground": "#003544",
+						"foreground": "#FF8000",
 						"style": "plain",
 						"template": "👨‍💻💬... ",
 						"type": "text"

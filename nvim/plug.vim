@@ -10,6 +10,8 @@ Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
   Plug 'hoob3rt/lualine.nvim'
+  Plug 'kyazdani42/nvim-tree.lua'
+  Plug 'antoinemadec/FixCursorHold.nvim'
   Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }

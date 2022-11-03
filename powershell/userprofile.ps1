@@ -1,3 +1,7 @@
+###### For SUDO
+# First install scoop then. scoop install curl sudo jq
+
+
 oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/williamalvarez92/personal-config/main/oh-my-posh/neko.omp.json'| Invoke-Expression
 
 #Alias

@@ -4,7 +4,7 @@ if (-not (Get-Command oh-my-posh -ErrorAction SilentlyContinue)) {
     winget install JanDeDobbeleer.OhMyPosh -s winget
     Write-Host "Oh My Posh installed successfully."
     # URL of the JSON file
-    $url = "http://www.us.com/config.json"
+    $url = "https://raw.githubusercontent.com/williamalvarezdev/personal-config/main/Windows/oh_my_posh/config.json"
 
     # Get current user's username
     $user = $env:USERNAME

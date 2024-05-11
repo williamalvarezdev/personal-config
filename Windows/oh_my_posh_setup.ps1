@@ -10,7 +10,7 @@ if (-not (Get-Command oh-my-posh -ErrorAction SilentlyContinue)) {
     $currentUsername = $env:USERNAME
 
     # Define the URLs for the current and desired settings files
-    $currentSettingsURL = "https://raw.githubusercontent.com/williamalvarezdev/personal-config/main/Windows/oh_my_posh/settings.json"
+    $currentSettingsURL = "https://raw.githubusercontent.com/williamalvarezdev/personal-config/main/Windows/settings.json"
     $desiredSettingsPath = "C:\Users\$currentUsername\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
     # Download the desired settings file

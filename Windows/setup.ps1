@@ -1,13 +1,14 @@
 # Check if Oh My Posh is already installed
 if (-not (Get-Command oh-my-posh -ErrorAction SilentlyContinue)) {
+    # Get the current username
+    $currentUsername = $env:USERNAME
     # Install Oh My Posh using winget
     winget install JanDeDobbeleer.OhMyPosh -s winget
     Write-Host "Oh My Posh installed successfully."
     # URL of the JSON file
     oh-my-posh font install --user Monofur NF
     oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/williamalvarezdev/personal-config/main/Windows/oh_my_posh/config.json' | Invoke-Expression
-    # Get the current username
-    $currentUsername = $env:USERNAME
+    oh-my-posh init pwsh --config 'C:\Users\willi\AppData\Local\Programs\oh-my-posh\themes\neko.omp.json' | Invoke-Expression
 
     # Define the URLs for the current and desired settings files
     $currentSettingsURL = "https://raw.githubusercontent.com/williamalvarezdev/personal-config/main/Windows/settings.json"
